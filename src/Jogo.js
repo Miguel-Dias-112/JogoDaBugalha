@@ -11,7 +11,7 @@ export function criaJogo(player1, player2) {
             this.player.rolarDado()
             this.bot.rolarDado()
             this.fimJogo = false
-            //easterEggKnop()
+            easterEggKnop()
             atualizarTela(this.player)
             atualizarTela(this.bot)
         },
