@@ -1,8 +1,8 @@
 export function easterEggKnop () {
     const igorAparecer = (Math.floor(Math.random() * 10) + 1)
-    if(igorAparecer>1){
-        return;
-    }
+    // if(igorAparecer>1){
+    //     return;
+    // }
     const resultadoCtn = document.querySelector('.resultados')
     let resultado = document.querySelector('.resultado')
     setTimeout(() => {
